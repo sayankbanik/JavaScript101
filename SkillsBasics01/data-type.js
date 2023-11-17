@@ -36,7 +36,7 @@ only declarations
 */
 
 const numbers = [1,2,6,8,4]
-const heroes = ["batman","Ironman","Superman"]
+const heroes = ["batman","Ironman","Superman","Flash"]
 const mixture = ["string",123,true,236.369,undefined,null]
 
 const userObject={
