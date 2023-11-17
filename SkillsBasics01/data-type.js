@@ -18,9 +18,13 @@ let bankBalance = undefined
 const buttonId = Symbol("id")
 const aReallyLongNumber = 90071648442n
 
-console.log(2+2)
-console.log(2+"2")
+// console.log(2+2)
+// console.log(2+"2")
 
+let nName = "Sayan24"
+let anotherName = nName
+console.log(nName)
+console.log(anotherName)
 
 // Reference (Non-primitive) - Objects (HEAP)
 /*
@@ -37,9 +41,13 @@ const mixture = ["string",123,true,236.369,undefined,null]
 
 const userObject={
     name : "Sayan",
-    age : 20,
+    age : 24,
     isLoggedIn : true
 }
+
+let anotherUser = userObject
+console.log(userObject)
+console.log(anotherUser)
 
 //functions
 const sayHello = function(){
